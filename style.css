@@ -1,8 +1,31 @@
 body {
   font-family: 'Libre Baskerville', serif;
+  height: 100%;
+  width: 700px;
 }
 
-.jumbotron {
-  margin: 0 auto;
-  background: white;
+.container {
+  margin-top: 200px;
+  margin-left: 400px;
+}
+
+ul>li {
+  list-style-type: none;
+}
+
+h1 {
+  opacity: 0.8;
+}
+
+#links {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+}
+
+a {
+  color: grey;
+}
+
+a:hover {
+  color: rgb(116, 116, 116);
 }
