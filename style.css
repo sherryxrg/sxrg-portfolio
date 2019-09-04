@@ -1,1 +1,8 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+}
 
+.jumbotron {
+  margin: 0 auto;
+  background: white;
+}
