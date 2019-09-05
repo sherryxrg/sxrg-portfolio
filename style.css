@@ -29,3 +29,10 @@ a {
 a:hover {
   color: rgb(116, 116, 116);
 }
+
+#vertical-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  color: #897CBE;
+  writing-mode: vertical-rl;
+}
