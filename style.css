@@ -36,3 +36,7 @@ a:hover {
   color: #897CBE;
   writing-mode: vertical-rl;
 }
+
+#sec-2 {
+  margin-bottom: 100px;
+}
