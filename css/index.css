@@ -12,7 +12,7 @@
 
 #title {
   font-family: 'Abril Fatface', cursive;
-  color: rgba(238, 238, 238, 0.85);
+  color: rgba(238, 238, 238, 0.95);
   font-weight: 200;
   font-size: 9em;
   line-height: 0.65em;
@@ -40,5 +40,10 @@ ul>li>a:hover {
   color: white;
   text-decoration: none;
   font-weight: 900;
+}
+
+/* links to github, codepen, twitter...instagram? */
+#icons {
+  opacity: 0.9;
 }
 
