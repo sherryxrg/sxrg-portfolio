@@ -1,0 +1,41 @@
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(20, 20, 20);
+}
+
+#middle {
+  height: 80vh;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+#title {
+  font-family: 'Abril Fatface', cursive;
+  color: rgba(238, 238, 238, 0.85);
+  font-weight: 200;
+  font-size: 9em;
+  line-height: 0.65em;
+  text-align: right;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 80px;
+}
+
+#links {
+  list-style-type: none;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+ul>li>a {
+  color: white;
+  font-size: 3em;
+  line-height: 0.7em;
+  text-transform: uppercase;
+}
+
+ul>li>a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+}
+
