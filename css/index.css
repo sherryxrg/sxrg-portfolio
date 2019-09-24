@@ -18,17 +18,20 @@
   line-height: 0.65em;
   text-align: right;
   -webkit-font-smoothing: antialiased;
-  padding-top: 80px;
+  margin-top: 80px;
 }
 
 #links {
+  margin-left: 0px;
   list-style-type: none;
   font-family: 'Gothic A1', sans-serif;
+  text-align: left;
+  margin-top: 210px;
 }
 
 ul>li>a {
   color: white;
-  font-size: 3em;
+  font-size: 4em;
   line-height: 0.7em;
   text-transform: uppercase;
 }
