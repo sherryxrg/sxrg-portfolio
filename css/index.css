@@ -1,2 +1,43 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(50, 56, 70);
+  border: 30px solid rgb(140, 223, 239);
+  /* background-color: rgb(143, 143, 134);
+  border: 30px solid rgb(132, 252, 253); */
+  padding: 30px 30px, 30px, 30px;
+}
 
+#main-container {
+  color: rgb(140, 223, 239);
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+
+#split-row {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-item-right {
+  height: 120px;
+  width: auto;
+  border-bottom: 2px solid rgb(140, 223, 239);
+  font-size: 80px;
+  padding-left: 20px;
+}
+
+  .menu-item-right span {
+    font-size: 20px;
+  }
+
+.orb-artifact {
+  height: 300px;
+  width: 300px;
+  border: 5px solid rgb(140, 223, 239);
+  border-radius: 150px;
+}
 
