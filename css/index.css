@@ -24,6 +24,7 @@ a:hover {
   padding: 0px;
 }
 
+/* invisible frame seperating menu and graphics/content */
 #split-row {
   height: 100%;
   width: 100%;
@@ -31,12 +32,22 @@ a:hover {
   padding: 0px;
 }
 
+/* width specified by outer flex-container (4:8) */
+#page-left {
+  height: 100%;
+}
+
 .menu-item-left {
   height: 120px;
-  width: auto;
-  border-bottom: 2px solid rgb(140, 223, 239);
+  width: 100%;
+  border-bottom: 2px solid rgb(140, 223, 239); /* line under each menu item */
   font-size: 80px;
-  padding-left: 20px;
+  padding-left: 5%;
+  transition: all .5s ease-in-out;
+}
+
+.menu-item-left:hover {
+  transform: scale(0.95) ; 
 }
 
   .menu-item-left span {
@@ -49,11 +60,17 @@ a:hover {
 
 .orb-artifact {
   margin: 27% 25% 20% 40%;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   /* border: 5px solid rgb(140, 223, 239); */
-  border-radius: 200px;
+  border-radius: 150px;
   background-image: linear-gradient(to bottom,  rgba(140, 223, 239) 10%, #323846 100%);
   background-blend-mode: overlay;
+}
+
+@media only screen and (max-width: 1120px) {
+  .orb-artifact {
+    display: none;
+  }
 }
 
