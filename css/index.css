@@ -33,16 +33,19 @@ a:hover {
   /* border: 1px solid green; */
 }
 
-#top-nav {
+.navbar {
   width: 100vw;
   text-align: right;
   display: inline-block;
   padding-right: 20px;
   padding-bottom: 0;
 
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar ul {
+  
 }
 
 #left-nav {
