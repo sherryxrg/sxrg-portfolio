@@ -1,13 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  overflow: hidden;
+  background-color: rgb(238, 238, 238);
+}
 
 .wrapper {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(238, 238, 238);
+
+  /* implement smooth scrolling */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 
 a {
-  color: red;
+  color: #d3381c;
 }
 
 a:hover {
@@ -21,6 +30,44 @@ a:hover {
 
 .row {
   height: 100vh;
+  /* border: 1px solid green; */
+}
+
+#top-nav {
+  width: 100vw;
+  text-align: right;
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 0;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+#left-nav {
+  /* height: 100vh; */
+  margin-left: 15px;
+  height: 100vh;
+  width: 30px;
+  text-align: center;
+  color: #d3381c;
+  font-family: 'Roboto';
+  /* vertical text and face inwards */
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
+
+#right-nav {
+  margin-right: 15px;
+  height: 100vh;
+  width: 30px;
+  text-align: center;
+  color: #d3381c;
+  font-family: 'Roboto';
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 
 #content-menu {
@@ -28,25 +75,29 @@ a:hover {
   height: 400px;
   color: rgb(54, 54, 54);
   background: #ffffff;
-  box-shadow: 5px 5px 15px rgba(102, 102, 102, 0.1);
+  box-shadow: 5px 5px 20px rgba(102, 102, 102, 0.1);
 }
 
-#content-title {
-  height: 40px;
-  width: 100%;
-}
-
-.container {
+#content-items {
+  padding: 20px;
   height: 100%;
-  width: 100%;
-  padding: 0px;
+  position: relative;
+}
+
+#icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
 }
 
 #menuItems {
-  font-size: 40px;
+  padding: 0;
+  font-size: 45px;
   list-style-type: none;
-  color: red;
+  color: #d3381c;
   font-weight: 600;
+  line-height: 3.0rem;
 }
 
 section:not(.different) {
@@ -57,7 +108,10 @@ section:not(.different) {
   text-align: center;
   width: 100%;
   height: 100vh;
-  background: rgb(238, 238, 238);
+}
+
+section {
+  scroll-snap-align: center;
 }
 
 section h1 {
@@ -74,6 +128,30 @@ section p {
   height: 100vh;
 }
 
+.fab {
+  font-size: 1.7rem;
+  padding-right: 10px;
+}
+
+#name-wrapper {
+  background-color: #d3381c;
+  position: relative;
+}
+
+#my-name p {
+  font-size: 70px;
+  list-style-type: none;
+  color: #d3381c;
+  text-shadow: 0px 5px 10px rgba(116, 7, 7, 0.87);
+  font-weight: 600;
+  line-height: 4.2rem;
+  bottom: 0;
+  position: absolute;
+  padding: 20px;
+  /* border-bottom: solid 5px white; */
+}
+
+/* style sections seperately */
 section#project {
 
 }
