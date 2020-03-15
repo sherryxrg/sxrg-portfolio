@@ -3,6 +3,7 @@
 body {
   overflow: hidden;
   background-color: rgb(238, 238, 238);
+  font-family: 'Roboto';
 }
 
 .wrapper {
@@ -24,13 +25,22 @@ a:hover {
   text-decoration: none;
 }
 
-.col, .col-6 {
+.container-fluid {
+  padding: 0;
+}
+
+.col, .col-7 {
   /* border: 1px solid red; */
+}
+
+.col-7 {
+  padding: 0;
 }
 
 .row {
   height: 100vh;
   /* border: 1px solid green; */
+  margin: 0;
 }
 
 .navbar {
@@ -59,7 +69,7 @@ a:hover {
 .navbar ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
+  font-size: 0.8rem;
 }
 
 #left-nav {
@@ -71,6 +81,8 @@ a:hover {
   color: #d3381c;
   font-family: 'Roboto';
   letter-spacing: 0.2rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
   /* vertical text and face inwards */
   writing-mode: vertical-rl;
   text-orientation: mixed;
@@ -85,11 +97,22 @@ a:hover {
   color: #d3381c;
   font-family: 'Roboto';
   letter-spacing: 0.2rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
   writing-mode: vertical-rl;
   text-orientation: mixed;
 }
 
-#content-menu {
+.content-menu-title {
+  text-align: left;
+  font-size: 7rem;
+  line-height: 5rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.content-menu {
   /* border: 1px solid green; */
   height: 400px;
   color: rgb(54, 54, 54);
@@ -103,6 +126,15 @@ a:hover {
   position: relative;
 }
 
+/* swiper.js */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
 #icons {
   position: absolute;
   bottom: 0;
@@ -117,6 +149,24 @@ a:hover {
   color: #d3381c;
   font-weight: 600;
   line-height: 3.0rem;
+}
+
+#name-wrapper {
+  background-color: #d3381c;
+  position: relative;
+}
+
+#my-name p {
+  font-size: 70px;
+  list-style-type: none;
+  color: #d3381c;
+  text-shadow: 0px 5px 10px rgba(116, 7, 7, 0.87);
+  font-weight: 600;
+  line-height: 4.2rem;
+  bottom: 0;
+  position: absolute;
+  padding: 20px;
+  /* border-bottom: solid 5px white; */
 }
 
 section:not(.different) {
@@ -141,46 +191,14 @@ section p {
   font-size: 1.5rem;
 }
 
-/* .napkin {
-  background: white;
-  margin: 50px;
-  height: 100vh;
-} */
-
 .fab {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding-right: 10px;
-}
-
-#name-wrapper {
-  background-color: #d3381c;
-  position: relative;
-}
-
-#my-name p {
-  font-size: 70px;
-  list-style-type: none;
-  color: #d3381c;
-  text-shadow: 0px 5px 10px rgba(116, 7, 7, 0.87);
-  font-weight: 600;
-  line-height: 4.2rem;
-  bottom: 0;
-  position: absolute;
-  padding: 20px;
-  /* border-bottom: solid 5px white; */
 }
 
 /* style sections seperately */
 section#project {
 
-}
-
-section#mockups {
-  
-}
-
-section#about{
-  
 }
 
 
