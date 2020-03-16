@@ -74,15 +74,14 @@ a:hover {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 15px;
+
 }
 
 .nav-active {
   text-decoration: line-through;
 }
 
-#left-nav {
-  /* height: 100vh; */
-  margin-left: 1.5rem;
+.side-nav {
   height: 100vh;
   width: 30px;
   text-align: center;
@@ -91,7 +90,11 @@ a:hover {
   letter-spacing: 0.2rem;
   font-size: 0.7rem;
   text-transform: uppercase;
-  /* vertical text and face inwards */
+}
+
+#left-nav {
+  margin-left: 1.5rem; 
+
   writing-mode: vertical-rl;
   text-orientation: mixed;
   transform: rotate(180deg);
@@ -99,14 +102,7 @@ a:hover {
 
 #right-nav {
   margin-right: 1.5rem;
-  height: 100vh;
-  width: 30px;
-  text-align: center;
-  color: #d3381c;
-  font-family: 'Roboto';
-  letter-spacing: 0.2rem;
-  font-size: 0.7rem;
-  text-transform: uppercase;
+  
   writing-mode: vertical-rl;
   text-orientation: mixed;
 }
