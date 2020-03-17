@@ -138,8 +138,10 @@ a:hover {
   height: 500px;
   width: 400px;
   background: purple;
+  color: white;
   margin: 0;
-  padding: 0;
+  padding: 15px;
+  font-family: 'Roboto Mono', monospace;
   display: inline-block;
   float: left;
 }
@@ -147,7 +149,6 @@ a:hover {
 .scene {
   height: 100%;
   width: 100%;
-  background: black;
   cursor: none;
 }
 
