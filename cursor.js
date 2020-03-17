@@ -36,7 +36,7 @@ const initCanvas = () => {
     height: 75
   };
   paper.setup(canvas);
-  const strokeColor = "#d3381c";
+  const strokeColor = "rgb(0, 37, 82)";
   const strokeWidth = 1;
   const segments = 8;
   const radius = 15;
