@@ -280,7 +280,14 @@ section {
 .card-text p {
   font-family: 'Lato', 'Arial';
   font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.07rem;
 }
+
+.card-text a {
+  text-decoration: underline;
+}
+
 
 
 
