@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Roboto+Mono:wght@400;700&display=swap');
 
 body {
   /* overflow: hidden; */
-  background-color: #0253B3;
+  background-color: rgb(12, 85, 175);
   font-family: 'Lato';
 }
 
@@ -136,14 +136,21 @@ a:hover {
 
 .about-text {
   height: 500px;
-  width: 400px;
-  background: purple;
+  width: 500px;
+  background: rgb(0, 66, 146);
   color: white;
   margin: 0;
   padding: 15px;
   font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
   display: inline-block;
   float: left;
+}
+
+.about-text p span {
+  font-style: italic;
+  color: #00ff00;
+  text-decoration: underline;
 }
 
 .scene {
@@ -154,7 +161,7 @@ a:hover {
 
 .frame {
   height: 500px;
-  width: 400px;
+  width: 300px;
   display: inline-block;
   float: right;
 }
@@ -264,8 +271,16 @@ section {
   z-index: 12000;
 }
 
-p b {
+.card-text p b {
   font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  font-size: 20px;
 }
+
+.card-text p {
+  font-family: 'Lato', 'Arial';
+  font-weight: 300;
+}
+
 
 
