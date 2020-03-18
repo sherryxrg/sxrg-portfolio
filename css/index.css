@@ -129,13 +129,13 @@ a:hover {
 }
 
 .about-menu {
-  height: 500px;
+  height: 600px;
   width: 800px;
   margin: 0 auto;
 }
 
 .about-text {
-  height: 500px;
+  height: 600px;
   width: 500px;
   background: rgb(0, 66, 146);
   color: white;
@@ -151,6 +151,11 @@ a:hover {
   font-style: italic;
   color: #00ff00;
   text-decoration: underline;
+}
+
+#barchart {
+  height : 200px;
+  width: 400px;
 }
 
 .scene {
@@ -287,7 +292,3 @@ section {
 .card-text a {
   text-decoration: underline;
 }
-
-
-
-
