@@ -3,7 +3,8 @@
 body {
   /* overflow: hidden; */
   background-color: rgb(12, 85, 175);
-  font-family: 'Lato';
+  font-family: 'Lato', 'Arial';
+  cursor: none;
 }
 
 .wrapper {

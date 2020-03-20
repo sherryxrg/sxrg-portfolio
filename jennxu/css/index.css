@@ -1,0 +1,22 @@
+
+.content {
+  margin: 0 auto;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  padding-top: 90px;
+}
+
+#main-img {
+  height: 80%;
+  border-style: solid;
+  border-width: 8px;
+  border-color: white;
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+

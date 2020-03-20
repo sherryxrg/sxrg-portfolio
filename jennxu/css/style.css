@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #a38787; 
+}
+
+#wrapper {
+  background-color: #ffffff;
+  height: 100vh;
+  width: calc(100vw-100px);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#navbar {
+  height: 40px;
+  width: 100%;
+  color: black;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+  vertical-align: baseline;
+}
+
+#logo {
+  font-family: 'Philosopher';
+  letter-spacing: 0.1em;
+  font-size: 32pt;
+  font-weight: 400;
+  float: left;
+  padding-left: 0px;
+  padding-top: 0px;
+  transform: translateY();
+}
+
+.nav-button {
+  font-family: 'Philosopher';
+  padding-left: 25px;
+  padding-bottom: 0px;
+  font-size: 14pt;
+  float: right;
+  padding-top: 20px; /* find another way to align navbar links */
+}
+
+footer {
+  font-family: 'Philosopher';
+  font: 10pt;
+  width: 100%;
+  color: black;
+  height: 30px;
+  text-align: right;
+  left: 0;
+  bottom: 0;
+}

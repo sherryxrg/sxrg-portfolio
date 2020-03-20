@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+#content {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Lato';
+  text-emphasis: italic;
+}
+
+#content .text {
+  line-height: 2rem;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+

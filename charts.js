@@ -1,6 +1,7 @@
 
 console.log("chartjs loaded");
 
+// cannot use jQuery object for getting 2D context.
 var boxframe = $('#barchart');
 console.log(boxframe.height());
 console.log(boxframe.width());
