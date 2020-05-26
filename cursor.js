@@ -1,4 +1,5 @@
-// code from https://tympanus.net/codrops/2019/01/31/custom-cursor-effects/
+// code modified from: https://tympanus.net/codrops/2019/01/31/custom-cursor-effects/
+
 // set the starting position of the cursor outside of the screen
 let clientX = -100;
 let clientY = -100;
