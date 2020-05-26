@@ -130,22 +130,18 @@ a:hover {
 }
 
 .about-menu {
-  height: 600px;
-  width: 800px;
+  width: 500px;
   margin: 0 auto;
 }
 
 .about-text {
-  height: 600px;
-  width: 500px;
+  width: 100%;
   background: rgb(0, 66, 146);
   color: white;
   margin: 0;
   padding: 15px;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
-  display: inline-block;
-  float: left;
 }
 
 .about-text p span {

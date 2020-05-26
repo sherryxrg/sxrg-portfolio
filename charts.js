@@ -15,11 +15,11 @@ var ctx = c.getContext("2d");
 // ctx.fill();
 
 var data = {
-    labels: ["HTML5", "CSS+SASS", "JS/jQuery", "React.js", "Node.js", "Java", "Python 3"],
+    labels: ["CSS+SASS", "React.js", "iOS (Swift)", "Java", "Python 3"],
     datasets: [{
             backgroundColor: "white",
             hoverBackgroundColor: "rgba(255,255,255,0.7)",
-            data: [100, 90, 80, 70, 55, 85, 85]
+            data: [80, 80, 85, 85, 85]
         }]
 };
 
