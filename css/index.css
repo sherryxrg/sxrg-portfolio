@@ -9,7 +9,7 @@ body {
   /* overflow: hidden; */
   background-color: rgb(12, 85, 175);
   font-family: 'Lato', 'Arial';
-  cursor: none;
+  /* cursor: none; */
   margin: 0;
   padding: 0;
 }
@@ -19,7 +19,7 @@ body {
   padding: 0;
   height: 100vh;
   width: 100vw;
-  cursor: none;
+  /* cursor: none; */
 
   /* implement smooth scrolling */
   overflow-y: scroll;
@@ -28,7 +28,7 @@ body {
 }
 
 .wrapper a {
-  cursor: none;
+  /* cursor: none; */
 }
 
 a {
@@ -39,7 +39,8 @@ a {
 a:hover {
   color: rgb(0, 255, 0);
   text-decoration: none;
-  cursor: none;
+
+  /* cursor: none; */
 }
 
 .row {
