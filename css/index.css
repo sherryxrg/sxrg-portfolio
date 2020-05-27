@@ -240,12 +240,12 @@ a:hover {
 }
 
 .flexbox {
-  display: flex;
+  display: -webkit-flex;
   margin: 0;
   padding: 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
   .flexbox {
     display: block;
   }
