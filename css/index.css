@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Roboto+Mono:wght@400;700&display=swap');
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   /* overflow: hidden; */
   background-color: rgb(12, 85, 175);
@@ -110,22 +115,6 @@ a:hover {
   margin: 0 auto;
 }
 
-.about-text {
-  width: 100%;
-  background: rgb(0, 66, 146);
-  color: white;
-  margin: 0;
-  padding: 15px;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 14px;
-}
-
-.about-text p span {
-  font-style: italic;
-  color: #00ff00;
-  text-decoration: underline;
-}
-
 #barchart {
   height : 200px;
   width: 400px;
@@ -227,8 +216,8 @@ a:hover {
   font-weight: 600;
   line-height: 4.2rem;
   padding: 20px;
-  margin-top: 10px;
   text-align: left;
+  min-width: 318px;
 }
 
 #menuItems {
@@ -243,6 +232,7 @@ a:hover {
   background-color: rgb(0, 66, 146);
   padding: 20px;
   box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.16);
+  min-width: 318px;
 }
 
 #icons {
@@ -281,6 +271,11 @@ section {
   scroll-snap-align: center;
 }
 
+#title {
+  margin: 0;
+  padding: 0;
+}
+
 #ios {
   background-color: rgb(125, 221, 237);
 }
@@ -291,4 +286,20 @@ section {
 
 #react {
   background-color: #4499ce;
+}
+
+.about-text {
+  max-width: 500px;
+  background: rgb(0, 66, 146);
+  color: white;
+  margin: 0;
+  padding: 15px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+}
+
+.about-text p span {
+  font-style: italic;
+  color: #00ff00;
+  text-decoration: underline;
 }
