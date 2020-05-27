@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>GUO, SHERRY</title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/index.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
@@ -29,126 +29,50 @@
 
     <!-- section/pages -->
     <!-- TITLE SECTION -->
-    <section id="title" class="different">
+    <section id="title">
+      
+      <div class="flexbox">
 
-      <div class="container-fluid">
-        <div class="row">
-        
-          <!-- left label: currently blank -->
-          <div id="left-nav" class="side-nav"></div>
-
-          <div class="col">
-          </div>
-
-          <!-- middle menu column -->
-          <div class="col-7 align-self-center">
-            <div class="row content-menu">
-
-              <!-- left col: name -->
-              <div id="name-wrapper" class="col">
-                <div id="my-name">
-                  <p><span>Hi!</span><br>I'm Sherry.</p>
-                </div>
-              </div>
-              <!-- right col: menu list -->
-              <div class="col">
-                <div id="content-items">
-                  <ul id="menuItems">
-                    <li><a href="#ios">iOS</a></li>
-                    <li><a href="#python">Python</a></li>
-                    <li><a href="#react">React</a></li>
-                    <li><a href="#about" style="color:rgba(255, 255, 255, 0.514);">About</a></li>
-                  </ul>
-                  <div id="icons">
-                    <a href="https://github.com/sxrg" target="blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/sherryxrguo/" target="blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://codepen.io/sherryxrg" target="blank"><i class="fab fa-codepen"></i></a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col">
-          </div>
-
-          <div id="right-nav" class="side-nav">sherry guo © 2019-2020</div>
+        <div class="col" id="name-box">
+          <p><span>Hi!</span><br>I'm Sherry.</p>
         </div>
+    
+        <div class="col" id="menu-box">
+          <ul id="menuItems">
+            <li><a href="#ios">iOS</a></li>
+            <li><a href="#python">Python</a></li>
+            <li><a href="#react">React</a></li>
+            <li><a href="#about" style="color:rgba(255, 255, 255, 0.514);">About</a></li>
+          </ul>
+          <div id="icons">
+            <a href="https://github.com/sxrg" target="blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sherryxrguo/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://codepen.io/sherryxrg" target="blank"><i class="fab fa-codepen"></i></a>
+          </div>
+        </div>
+
       </div>
+
     </section>
 
-    <!-- PROJECTS -->
+    <!-- sect1 -->
     <section id="ios">
 
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col"></div>
-
-          <!-- main content holder -->
-          <div class="col-7 align-self-center">
-            <div class="row content-menu">
-
-            
-            </div>
-          </div>
-
-          <div class="col"></div>
-        </div>
-      </div>
-
     </section>
 
-    <!-- Prototypes -->
+    <!-- sect2 -->
     <section id="python">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col"></div>
-
-          <!-- main content holder -->
-          <div class="col-7 align-self-center">
-
-            <div class="row content-menu">
-
-            </div>
-
-          </div>
-
-          <div class="col"></div>
-        </div>
-      </div>
+      
     </section>
 
-    <!-- Prototypes -->
+    <!-- sect3 -->
     <section id="react">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col"></div>
-
-          <!-- main content holder -->
-          <div class="col-7 align-self-center">
-
-            <div class="row content-menu">
-
-            </div>
-
-          </div>
-
-          <div class="col"></div>
-        </div>
-      </div>
+     
     </section>
 
     <!-- PROFILE -->
     <section id="about">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col"></div>
-
-          <!-- main content holder -->
-          <div class="col-7 align-self-center">
-            
-              <div class="about-menu">
+      
                 <div class="about-text">
                   <p>[<a href="sherryguo-resume.pdf">view full-resume</a>]</p>
                   <p>
@@ -161,13 +85,7 @@
                   <!-- <canvas id="barchart"></canvas> -->
                 </div>
                 <!-- <div class="frame" id="boxframe"></div> -->
-              </div>
-            
-          </div>
-
-          <div class="col"></div>
-        </div>
-      </div>
+  
     </section>
 
     <!-- custom cursor -->
@@ -181,7 +99,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.2/paper-full.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
-  <script src="main.js"></script>
+  <!-- <script src="main.js"></script> -->
   <script src="cursor.js"></script>
   <!-- <script src="cube.js"></script>
   <script src="charts.js"></script> -->
@@ -189,3 +107,19 @@
 </body>
 
 </html>
+
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col"></div>
+
+    <div class="col-7 align-self-center">
+      <div class="row content-menu">
+
+        
+
+      </div>
+    </div>
+
+    <div class="col"></div>
+  </div>
+</div> -->
