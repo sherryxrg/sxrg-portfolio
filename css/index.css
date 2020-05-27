@@ -274,6 +274,7 @@ section {
 #title {
   margin: 0;
   padding: 0;
+  height: 96vh;
 }
 
 #ios {
