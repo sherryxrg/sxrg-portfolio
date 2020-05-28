@@ -26,47 +26,51 @@ $.fn.isInViewport = function () {
 
 // implementation
 var navbar = $('#navigation')
-navbar.hide();
 
-$('.wrapper').on('resize scroll', function() {
+// $('.wrapper').on('resize scroll', function() {
     
-    // hide the navbar if section == #title
-    // if (!$('#title').isInViewport()) {
-    //     navbar.fadeIn(); 
-    // } else {
-    //     navbar.fadeOut();
-    // }
+//     // hide the navbar if section on the first page
 
-    navbar.fadeIn(); 
+//     if (!$('#title').isInViewport()) {
+//         navbar.fadeIn(); 
+//     } else {
+//         navbar.fadeOut();
+//     } 
 
-    // highlight current section 
-    if ($('#ios').isInViewport()) {
-        $('#nav2').addClass('nav-active');
+//     // highlight current section 
+//     if ($('#ios').isInViewport()) {
+//         $('#nav2').addClass('nav-active');
 
-        $('#nav3').removeClass('nav-active');
-        $('#nav4').removeClass('nav-active');
-        $('#nav5').removeClass('nav-active');
-    } else if ($('#python').isInViewport()) {
-        $('#nav3').addClass('nav-active');
+//         $('#nav3').removeClass('nav-active');
+//         $('#nav4').removeClass('nav-active');
+//         $('#nav5').removeClass('nav-active');
+//     } else if ($('#python').isInViewport()) {
+//         $('#nav3').addClass('nav-active');
 
-        $('#nav2').removeClass('nav-active');
-        $('#nav4').removeClass('nav-active');
-        $('#nav5').removeClass('nav-active');
-    } else if ($('#react').isInViewport()) {
-        $('#nav4').addClass('nav-active');
+//         $('#nav2').removeClass('nav-active');
+//         $('#nav4').removeClass('nav-active');
+//         $('#nav5').removeClass('nav-active');
+//     } else if ($('#react').isInViewport()) {
+//         $('#nav4').addClass('nav-active');
 
-        $('#nav2').removeClass('nav-active');
-        $('#nav3').removeClass('nav-active');
-        $('#nav5').removeClass('nav-active');
-    } else if ($('#about').isInViewport()) {
-        $('#nav5').addClass('nav-active');
+//         $('#nav2').removeClass('nav-active');
+//         $('#nav3').removeClass('nav-active');
+//         $('#nav5').removeClass('nav-active');
+//     } else if ($('#about').isInViewport()) {
+//         $('#nav5').addClass('nav-active');
 
-        $('#nav2').removeClass('nav-active');
-        $('#nav3').removeClass('nav-active');
-        $('#nav4').removeClass('nav-active');
-    }
+//         $('#nav2').removeClass('nav-active');
+//         $('#nav3').removeClass('nav-active');
+//         $('#nav4').removeClass('nav-active');
+//     } else if ($('#title').isInViewport()) {
 
-});
+//         $('#nav2').removeClass('nav-active');
+//         $('#nav3').removeClass('nav-active');
+//         $('#nav4').removeClass('nav-active');
+//         $('#nav5').removeClass('nav-active');
+//     }
+
+// });
 
 
 // -- swiper.js 
