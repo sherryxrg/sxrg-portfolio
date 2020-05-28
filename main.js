@@ -24,8 +24,21 @@ $.fn.isInViewport = function () {
     return elemBottom > vpTop && elemTop < vpBottom;
 };
 
+// hide animated arrow on last page
+var arrow = $('#arrow');
+
+$('.wrapper').on('resize scroll', function() {
+
+    if (!$('#about').isInViewport()) {
+        arrow.fadeIn(); 
+    } else {
+        arrow.fadeOut();
+    } 
+
+});
+
 // implementation
-var navbar = $('#navigation')
+var navbar = $('#navigation');
 
 // $('.wrapper').on('resize scroll', function() {
     
