@@ -221,13 +221,13 @@ a:hover {
   min-width: 318px;
 }
 
-#menuItems {
+/* #menuItems {
   padding: 0;
   font-size: 45px;
   list-style-type: none;
   font-weight: 600;
   line-height: 3.0rem;
-}
+} */
 
 #menu-box {
   background-color: rgb(0, 66, 146);

@@ -31,28 +31,39 @@ navbar.hide();
 $('.wrapper').on('resize scroll', function() {
     
     // hide the navbar if section == #title
-    if (!$('#title').isInViewport()) {
-        navbar.fadeIn(); 
-    } else {
-        navbar.fadeOut();
-    }
+    // if (!$('#title').isInViewport()) {
+    //     navbar.fadeIn(); 
+    // } else {
+    //     navbar.fadeOut();
+    // }
+
+    navbar.fadeIn(); 
 
     // highlight current section 
-    if ($('#projects').isInViewport()) {
-        $('#navProjects').addClass('nav-active');
+    if ($('#ios').isInViewport()) {
+        $('#nav2').addClass('nav-active');
 
-        $('#navMockups').removeClass('nav-active');
-        $('#navAbout').removeClass('nav-active');
-    } else if ($('#mockups').isInViewport()) {
-        $('#navMockups').addClass('nav-active');
+        $('#nav3').removeClass('nav-active');
+        $('#nav4').removeClass('nav-active');
+        $('#nav5').removeClass('nav-active');
+    } else if ($('#python').isInViewport()) {
+        $('#nav3').addClass('nav-active');
 
-        $('#navProjects').removeClass('nav-active');
-        $('#navAbout').removeClass('nav-active');
+        $('#nav2').removeClass('nav-active');
+        $('#nav4').removeClass('nav-active');
+        $('#nav5').removeClass('nav-active');
+    } else if ($('#react').isInViewport()) {
+        $('#nav4').addClass('nav-active');
+
+        $('#nav2').removeClass('nav-active');
+        $('#nav3').removeClass('nav-active');
+        $('#nav5').removeClass('nav-active');
     } else if ($('#about').isInViewport()) {
-        $('#navAbout').addClass('nav-active');
+        $('#nav5').addClass('nav-active');
 
-        $('#navMockups').removeClass('nav-active');
-        $('#navProjects').removeClass('nav-active');
+        $('#nav2').removeClass('nav-active');
+        $('#nav3').removeClass('nav-active');
+        $('#nav4').removeClass('nav-active');
     }
 
 });
