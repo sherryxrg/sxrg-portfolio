@@ -32,7 +32,7 @@ $('.wrapper').on('resize scroll', function() {
     if (!$('#about').isInViewport()) {
         arrow.fadeIn(); 
     } else {
-        arrow.fadeOut();
+        arrow.hide();
     } 
 
 });
