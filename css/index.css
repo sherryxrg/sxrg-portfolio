@@ -217,6 +217,16 @@ a:hover {
 
 .flexbox-thirds .col .title a {
   background-color: rgb(12, 85, 175);
+  text-decoration: underline;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.flexbox-thirds .col .title {
+  background-color: rgb(12, 85, 175);
+  text-decoration: underline;
   font-family: 'Roboto Mono', monospace;
   color: white;
   font-size: 14px;
@@ -239,8 +249,16 @@ a:hover {
   margin: 5px 0px;
 }
 
+.flexbox-thirds .col .library {
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(92, 165, 255);
+  font-weight: 600;
+  padding: 2px;
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
 .flexbox-thirds .col .image {
-  background: white;
   width: 100%;
   height: 200px;
   background-position: center;
@@ -263,19 +281,28 @@ a:hover {
 
 .flexbox-thirds .col .theircard {
   background-image: url("/imgs/hercard.png");
-  width: 100%;
-  height: 200px;
-  background-position: center;
-  background-size: cover;
 }
 
 .flexbox-thirds .col .drivewell {
   background-image: url("/imgs/drivewell.png");
-  width: 100%;
-  height: 200px;
-  background-position: center;
-  background-size: cover;
 }
+
+.flexbox-thirds .col .heart {
+  background-image: url("/imgs/heart.gif");
+}
+
+.flexbox-thirds .col .housing {
+  background-image: url("/imgs/house.jpeg");
+}
+
+.flexbox-thirds .col .pokedex {
+  background-image: url("/imgs/pokedex.png");
+}
+
+.flexbox-thirds .col .respect {
+  background-image: url("/imgs/respect.png");
+}
+
 
 .flexbox-thirds {
   /* border: 1px solid red; */
@@ -330,7 +357,7 @@ a:hover {
 
 .github {
   color: white;
-  background: rgba(82, 142, 189);
+  background: rgb(103, 176, 231);
 }
 
 section {
