@@ -98,41 +98,11 @@ a:hover {
   float: right;
 }
 
-/* swiper.js */
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-}
-
 .fab {
   font-size: 1.5rem;
   padding-right: 10px;
 }
 
-/* styling cards */
-.card-text {
-  color: white;
-  float: left;
-  display: inline-block;
-  padding: 15px;
-  text-align: left;
-  line-height: 1.4rem;
-  /* border: 1px solid green; */
-  height: 500px;
-  width: 250px;
-}
-
-.card-img {
-  float: right;
-  display: inline-block;
-  height: 500px;
-  width: 550px;
-  border-radius: 0px;
-}
 
 /* custom cursor */
 .cursor {
@@ -156,22 +126,6 @@ a:hover {
   z-index: 12000;
 }
 
-.card-text p b {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.card-text p {
-  font-family: 'Lato', 'Arial';
-  font-weight: 300;
-  font-size: 14px;
-  letter-spacing: 0.07rem;
-}
-
-.card-text a {
-  text-decoration: underline;
-}
 
 /* -------- each section ------- */
 #arrow {
@@ -217,7 +171,8 @@ a:hover {
 }
 
 .nav-active {
-  color: greenyellow;
+  background-color: rgb(0, 66, 146);
+  padding: 5px;
 }
 
 #name-box {
@@ -256,8 +211,126 @@ a:hover {
   }
 }
 
-.col {
+.flexbox .col {
   flex: 1;
+}
+
+.flexbox-thirds .col .title a {
+  background-color: rgb(12, 85, 175);
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.flexbox-thirds .col .text {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.flexbox-thirds .col .role {
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(34, 104, 190);
+  font-weight: 600;
+  padding: 2px;
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+.flexbox-thirds .col .image {
+  background: white;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+  filter: grayscale(100%);
+}
+
+.flexbox-thirds .col .image:hover {
+  filter: none;
+}
+
+.flexbox-thirds .col .lunar {
+  background-image: url("/imgs/lunar.png");
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.flexbox-thirds .col .theircard {
+  background-image: url("/imgs/hercard.png");
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.flexbox-thirds .col .drivewell {
+  background-image: url("/imgs/drivewell.png");
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.flexbox-thirds {
+  /* border: 1px solid red; */
+  display: -webkit-flex;
+  justify-content: space-evenly;
+}
+
+.flexbox-thirds .col {
+  /* border: 1px solid green; */
+  width: 320px;
+  /* background: white; */
+  margin: 10px 20px;
+  padding: 10px 10px 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+  .flexbox-thirds {
+    display: block;
+  }
+
+  .flexbox-thirds .col {
+    /* border: 1px solid green; */
+    width: 320px;
+    border-bottom: 1px solid white;
+  }
+
+  .flexbox-thirds .col .image {
+    /* border: 1px solid green; */
+    display: none !important;
+  }
+}
+
+@media (max-width: 590px) {
+  .flexbox-thirds .col {
+    /* border: 1px solid green; */
+    width: 290px;
+    /* background: white; */
+    padding: 5px;
+    text-align: left;
+    font-size: 14px;
+    margin: 5px;
+    border-bottom: 1px solid white;
+  }
+
+  .flexbox-thirds .col .image {
+    /* border: 1px solid green; */
+    display: none !important;
+  }
+}
+
+.github {
+  color: white;
+  background: rgba(82, 142, 189);
 }
 
 section {
@@ -267,7 +340,7 @@ section {
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 0;
   margin: 0;
 }
@@ -282,7 +355,7 @@ section {
 }
 
 #ios {
-  background-color: rgb(125, 221, 237);
+  background-color: rgb(111, 196, 211);
 }
 
 #python {
@@ -308,3 +381,13 @@ section {
   color: #00ff00;
   text-decoration: underline;
 }
+
+/* swiper.js */
+/* .swiper-container {
+  display: flex;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+} */
+
